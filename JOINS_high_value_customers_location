@@ -1,0 +1,27 @@
+-- SQL Query to identify where customers with high lifetime value are based
+SELECT
+    co.country,  -- Country of the customer
+    ci.city,     -- City of the customer
+    SUM(p.amount) AS lifetime_value  -- Calculated lifetime value
+FROM
+    payment p
+    INNER JOIN customer c ON p.customer_id = c.customer_id
+    INNER JOIN address a ON c.address_id = a.address_id
+    INNER JOIN city ci ON a.city_id = ci.city_id
+    INNER JOIN country co ON ci.country_id = co.country_id
+GROUP BY
+    co.country,
+    ci.city
+ORDER BY
+    lifetime_value DESC
+LIMIT 10;
+
+
+/*
+This SQL query utilizes JOIN operations to merge data from the payment and customer tables,
+allowing for a comprehensive analysis of customer spending. By joining these tables,
+the query aggregates payment amounts per customer to compute their total lifetime spending,
+which is a key metric for identifying high-value customers. The use of GROUP BY and ORDER BY
+clauses enables sorting the results to highlight the top spenders, providing valuable insights
+into customer behavior and value to the business.
+*/
