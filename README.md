@@ -5,7 +5,7 @@ SQL project analyzing Rockbuster Video Rental's database. Includes identifying h
 
 ## Introduction
 
-This project involves analyzing the Rockbuster Video Rental Company’s database to support their 2020 strategy as the company transitions to an online rental service. Using SQL and Tableau, I provide actionable insights to help Rockbuster stay competitive against streaming services.
+This project involves analyzing the Rockbuster Video Rental Company’s database to support its 2020 strategy as the company transitions to an online rental service. Using SQL and Tableau, I provide actionable insights to help Rockbuster stay competitive against streaming services.
 
 ## Key Questions & Objectives
 
@@ -32,11 +32,11 @@ This project involves analyzing the Rockbuster Video Rental Company’s database
 - **SQL Analysis:** Comprehensive answers to management’s questions.
 - **Visualizations:** Insights through Tableau Public dashboards.
 - **Narrative:** Strategic insights and recommendations.
-- 
+  
 
 ## Links
 
 - **[Project Brief](https://drive.google.com/file/d/1g70p4izFTVRQ0zuex0ZfvZ7ZKl7r2J-2/view?usp=sharing)**: Detailed information about the project, including objectives, methodology, and deliverables.
 - **[Data Dictionary](https://drive.google.com/file/d/1un5LMoux02SqSivfubRw1kxcv-OLaXxh/view?usp=sharing)**: Descriptions of dataset fields, and information on how datasets are interconnected through primary and foreign keys.
 - **[Tableau Dashboard](https://public.tableau.com/app/profile/buket.oztekin/vizzes)**: Interactive visualizations of the data analysis.
-- **[Final Presentation](https://drive.google.com/file/d/1SUjO6cyRlrWFthoB6iUzWzZ9U7lP_dg0/view?usp=sharing))**: Comprehensive presentation of the analysis and insights.
+- **[Final Presentation](https://drive.google.com/file/d/1SUjO6cyRlrWFthoB6iUzWzZ9U7lP_dg0/view?usp=sharing)**: Comprehensive presentation of the analysis and insights.
